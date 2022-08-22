@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <TextBody />
+      <TextBody label="Name" placeholder="Enter the character name"/>
+      <TextBody label="House" placeholder="Enter the character house"/>
+      <TextBody label="Image" placeholder="Enter the url of the image"/>
+
     </div>
   );
 }

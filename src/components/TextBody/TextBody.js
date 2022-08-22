@@ -1,10 +1,10 @@
 import './TextBody.css'
 
-const TextBody = () => {
+const TextBody = (props) => {
     return (
         <div className="text-body">
-            <label>Name</label>
-            <input placeholder="Enter your name"/>
+            <label>{props.label}</label>
+            <input placeholder={props.placeholder}/>
         </div>
     )
 }
